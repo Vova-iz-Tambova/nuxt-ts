@@ -9,7 +9,14 @@ module.exports = {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionDuration: {
+        DEFAULT: '333ms'
+      },
+      transitionTimingFunction: {
+        DEFAULT: 'easy-in-out'
+      }
+    },
   },
   plugins: [],
 }
