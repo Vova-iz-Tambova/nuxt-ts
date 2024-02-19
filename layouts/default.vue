@@ -1,6 +1,6 @@
 <template>
-  <section class="grid" style="grid-template-columns: 1fr 6fr">
-    <div class="p-6 bg-gray-800 h-full">
+  <section class="grid" style="grid-template-columns: 1fr 6fr; min-height: 100vh;">
+    <div class="px-5 py-8 bg-gray-700 h-full">
       <LayoutSidebar />
     </div>
     <div>
